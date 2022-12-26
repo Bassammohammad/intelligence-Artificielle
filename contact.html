@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <nav>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="propos.html">À propos</a></li>
+      <li><a href="contact.html"> Contact</a></li>
+    </ul>
+  </nav>
+  <body>
+    <h1 class="h1contact">Contact Us</h1>
+    <ul>
+      <li>Phone: 06 04 19 82 22</li>
+      <li>Email: bsmbsm2001@gmail.com</li>
+      <li>Adresse: Paris, France</li>
+    </ul>
+
+    <form
+      action="mailto:bsmbsm2001@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" /><br />
+      <label for="email">Email:</label><br />
+      <input type="text" id="email" name="email" /><br />
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="5" cols="30"></textarea><br />
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>
